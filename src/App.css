@@ -1,0 +1,36 @@
+.container{
+  display: grid;
+  place-items: center;
+}
+.todo-form{
+  display: block; 
+}
+.list-items{
+  width: 350px;
+  display: block;
+}
+.full-item{
+  display: block; 
+  margin-bottom: 12px;
+  border: 1px solid white;
+}
+.upper-Item{
+  display: flex;
+  margin: 0px 0px 0px 0px;
+} 
+h2{
+  margin-left: 15px;
+}
+li{
+  list-style-type: none;
+}
+p{
+  margin: 10px 10px;
+  font-size: large;
+}
+ul{
+  padding: 0px 0px 0px 0px;
+}
+.completado{
+  text-decoration: line-through;
+}
